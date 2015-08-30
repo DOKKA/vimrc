@@ -31,6 +31,7 @@ Plugin 'kchmck/vim-coffee-script'
 call vundle#end()            " required
 filetype plugin indent on    " required
 autocmd BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
+syntax on
 
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
@@ -43,4 +44,4 @@ autocmd BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
-colorscheme zenburn
+"colorscheme zenburn
